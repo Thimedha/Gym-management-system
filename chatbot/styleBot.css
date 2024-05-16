@@ -1,0 +1,99 @@
+
+
+
+
+span {
+	padding-right: 5px;
+
+	word-wrap: normal;
+}
+.contain {
+	display: flex;
+  justify-content: center;
+	align-items: center;
+	height: 0px;
+	align-items: center;
+	
+}
+
+.chat {
+	height: 420px;
+	display: flex;
+	flex-direction: column;
+	margin-left: 0%;
+	
+	font-family: 'Courier New', Courier, monospace;
+
+
+} 
+.chat .messages {
+	width: 150%;
+	
+}
+
+::-webkit-input-placeholder { 
+	color: .711 
+}
+ 
+input { 
+	border: 0; 
+	padding: 15px; 
+	background-color: rgb(0, 0, 0);
+	border-radius: 0; 
+	max-width: 100%;
+
+}
+
+.messages {
+	display: flex;
+	flex-direction: column;
+	overflow: scroll;
+	background-color: rgb(233, 222, 222);
+	border-radius: 10px;
+	border-radius: 0;
+	height: 400px;
+	font-size: 14px;
+
+
+	
+	
+
+	
+	
+
+}
+
+#bot {
+	margin-left: auto;
+}
+
+.bot {
+	font-family: Consolas, 'Courier New', Menlo, source-code-pro, Monaco,  
+	monospace;
+}
+
+.avatar {
+    width: 40px; /* Adjust width as needed */
+    height: 40px; /* Adjust height as needed */
+}
+
+
+.response {
+	display: flex;
+	align-items: center;
+	margin: 1%;
+}
+
+
+/* Mobile */
+
+@media only screen and (max-width: 980px) {
+  .container {
+		flex-direction: column; 
+		justify-content: flex-start;
+	}
+	.chat {
+		width: 75vw;
+		margin: 10vw;
+	}
+}

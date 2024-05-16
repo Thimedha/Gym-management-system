@@ -1,0 +1,93 @@
+
+
+* {box-sizing: border-box;}
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+  background-color:transparent;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 15px;
+  right: 28px;
+  width: 140px;
+}
+
+.close-button {
+  background-color:transparent;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: absolute;
+  margin-top: -5%;
+  margin-left: -5%;
+
+  width: 40px;
+
+
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 1px;
+  right: 15px;
+  z-index: 9;
+  background-color: transparent;
+  height:auto ;
+  padding-top: 0px;
+  width: 20%;
+
+  
+}
+
+/* Add styles to the form container */
+.form-contain {
+  
+  background-color:purple;
+  height: 500px;
+  outline-color: black;
+  background-origin: padding-box;
+ border-top-left-radius: 5%;
+ border-top-right-radius: 5%;
+}
+.form-container .messages{
+    margin-left: 0%;
+    scroll-margin-bottom:none ;
+    margin-bottom: 3px;
+    margin-top: 0%;
+       
+}
+.form-contain input{
+    margin-left: 0%;
+    margin-bottom: auto;
+   
+}
+/* Full-width input fields */
+.contain-box {
+  width: 60px;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  height: 500px;
+
+}
+.chat-box{
+    margin-bottom: auto;
+}
+
+
+
+/* Add a red background color to the cancel button */
+.form-contain .cancel {
+background-color: transparent;
+
+}
+
+/* Add some hover effects to buttons */
+.form-contain .btn:hover, .open-button:hover {
+  opacity: 1;
+}
