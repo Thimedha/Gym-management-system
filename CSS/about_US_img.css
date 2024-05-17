@@ -1,0 +1,61 @@
+.abo_img {
+	position: absolute;
+	margin-left: 130%;
+
+	
+}
+.contact-form{
+	position: relative;
+	
+	
+}
+/* ######### */
+div.gallery {
+	border: 1px solid #cccccc;
+	height:380px;
+	width: 320px;
+	margin-left: 70%;
+
+  }
+  
+  div.gallery:hover {
+	border: 1px solid #09ff00;
+  }
+  
+  div.gallery img {
+	height:380px;
+	width: 320px;
+	
+  }
+  
+  div.desc {
+
+	text-align: center;
+  }
+  
+ 
+  
+  .responsive {
+	padding: 0 6px;
+	float: left;
+	width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+	.responsive {
+	  width: 49.99999%;
+	  margin: 6px 0;
+	}
+  }
+  
+  @media only screen and (max-width: 500px) {
+	.responsive {
+	  width: 100%;
+	}
+  }
+  
+  .clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
