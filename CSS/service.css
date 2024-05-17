@@ -1,0 +1,42 @@
+/* imagess */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .column {
+    margin-top: 5%;
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .column h2{
+    margin-top: 5%;
+    color: aliceblue;
+    text-shadow: 1px 1px 2px rgb(255, 0, 0), 0 0 25px rgb(216, 39, 48), 0 0 5px rgb(72, 255, 0);
+  }
+  .column p{
+    margin-top: 10%;
+    color: aliceblue;
+  }
+  .column img{
+    width: 50%;
+    height: 500px;
+   
+    color: white;
+    
+    
+}
+.column img:hover{
+    border: 15px solid #3cff00;
+    
+}

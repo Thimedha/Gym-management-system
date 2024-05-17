@@ -1,0 +1,33 @@
+
+
+body{
+  font-family: poppins;
+  background-color: #000;
+  
+}
+
+
+
+
+/* Slide Icon ========================================== */
+
+
+
+
+/* ========== Slide Icon END ========================================== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*{
+   font-family: 'Poppins', sans-serif;
+
+   margin-left: 1%;
+   margin-right: 1%;
+
+   outline: none; border:none;
+   text-decoration: none;
+}
+
+
+
+
+
