@@ -1,0 +1,135 @@
+/* ----====Login Form =========================== */
+.form-container{
+   min-height: 60%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding:10px;
+   padding-bottom: 40px;
+   margin-top: 50px;
+   
+
+   .form-container label {
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+}
+
+
+.form-container label input {
+    margin-left: 5px; /* Adjust the margin as needed */
+}
+
+.form-container label p {
+    margin: 0;
+    margin-left: 10px; /* Adjust the margin as needed */
+    font-size: 16px; /* Adjust the font size as needed */
+    color: #000000;
+}
+
+ 
+ }
+ .form-container:before {
+     background-image: url("8.jpg");
+     width: 100%;
+     
+     background-size: cover;
+     content: "";
+     position: fixed;
+     left: 0;
+     right: 0;
+     top: 0;
+     bottom: 0;
+     z-index: -1;
+     display: block;
+  
+ 
+ }
+ .form-container form{
+    padding:10px;
+    border-radius: 10px;
+    border:  2px solid rgba(255, 255, 255, .2);
+    box-shadow: 0 5px 10px rgb(0, 255, 21);
+    background: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(10px);
+    color:white;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    text-align: center;
+    width: 350px;
+    height: 400px;
+    margin-top: 50px;
+ 
+ }
+ 
+ .form-container form h3{
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  color:rgb(255, 255, 255);
+}
+ 
+ .form-container form input,
+ .form-container form select{
+    width: 100%;
+    padding:10px 15px;
+    font-size: 14px;
+    margin:5px 0;
+    background: #eee;
+    border-radius: 5px;
+    margin-top: 15px;
+ }
+ 
+ .form-container form select option{
+    background: #fff;
+ }
+ 
+ .form-container form .form-btn{
+    background: #fbd0d9;
+    color:crimson;
+    text-transform: capitalize;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-weight: bolder;
+  
+ }
+ 
+ .form-container form .form-btn:hover{
+    background: crimson;
+    color:#fff;
+ }
+ 
+ .form-container form p{
+    margin-top: 10px;
+    font-size: 15px;
+    color:rgb(255, 255, 255);
+    
+    margin-left: -30%;
+ }
+ 
+ .form-container form p a{
+    color:rgb(0, 255, 13);
+  
+ }
+ 
+ .form-container form .error-msg{
+  margin:10px 0;
+  display: block;
+
+  color:#ff0000;
+  border-radius: 5px;
+  font-size: 16px;
+  padding:10px;
+}
+ 
+ 
+ 
+ /* Register Form==============****Start****================= */
+ 
+ /* End Register Form ========================================= */
+ /* ==================end Login Form========================== */
+ 
+ 
+ 

@@ -1,0 +1,15 @@
+.map {
+	position: absolute;
+	
+  bottom: 5%;
+  left: 15%;
+	height: 40%;
+  width: 70%;
+	right:20% ;
+	background: #ccc;
+}
+
+.map iframe {
+	height: 100%;
+	width: 100%;
+}

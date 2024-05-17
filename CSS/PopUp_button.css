@@ -1,0 +1,25 @@
+/* ==== PopUp Buttons */
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+    background-color: transparent;
+    padding: 10px 20px;
+    border: 3px solid rgb(0, 255, 21);;
+    color: white;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 90%;
+    right: 20px;
+    width: 250px;
+    border-radius: 15px;
+    transition-duration: 0.4s;
+  }
+  .button1:hover {
+    background-color: rgb(10, 159, 228);
+    color: white;
+  }
+  
+  
+  
+  /* End  */

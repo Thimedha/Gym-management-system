@@ -1,0 +1,90 @@
+
+
+/*==-Banner page===================*/
+.gym-banner{
+  width: 120%;
+  max-width: 1600px;
+  margin: 10px auto;
+  min-height: 520px;
+  padding: 60px 40px 40px 40px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.gym-banner::after{
+  content: '';
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+ 
+}
+.m-banner-img{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.m-banner-img::before{
+  content: '';
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background: rgba(32,32,32,0.7);
+  background: linear-gradient(-90deg, rgba(37,37,37,0.2) 0%, rgba(15,15,15,0.3) 100%);
+}
+.m-banner-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.banner-container{
+  z-index: 100;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  position: relative;
+}
+.title-container{
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+/*==making_page-reponsive===========================*/
+@media(max-width:1000px){
+  .watch-btn{
+    margin-top: 20px;
+  }
+}
+@media(max-width:900px){
+  .screenshots,
+  .dowenload-container{
+    width: 90%;
+  }
+}
+@media(max-width:750px){
+  .banner-container{
+    grid-template-columns: 1fr;
+  }
+  .play-btn-container{
+    margin-top: 50px;
+    display: flex;
+  }
+}
+@media(max-width:600px){
+  .gym-banner{
+    padding: 20px;
+  }
+ 
+}
